@@ -13,7 +13,7 @@ Simple donate button (with DAI) on Ethereum mainnet.
     data-web3-function="transfer"
     data-web3-inputs="to:address,amount:uint256"
     data-web3-values="0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef,"
->Transfer</button>
+>Donate</button>
 ```
 
 Or even simpler, using recipes:
@@ -23,5 +23,5 @@ Or even simpler, using recipes:
 <button
     type="button"
     data-web3-recipe="{ipfs_hash_of_recipe}"
->Transfer</button>
+>Donate</button>
 ```
